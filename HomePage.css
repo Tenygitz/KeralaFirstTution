@@ -793,6 +793,11 @@ li{
     width: 700px;
 }
 @media screen and (max-width:767px){
+.managementSection-img>svg{
+    width: 100%;
+    height: 300px;
+}}
+@media screen and (max-width:767px){
     .managementSection-content{
         width: 100%;
         padding: 10px;
@@ -881,6 +886,7 @@ li{
 @media screen and (max-width:767px){
     .videoSection-content>h1{
         font-size: 30px;
+        padding-bottom: 20px;
     }
 }
 .videoSection-content{
@@ -899,11 +905,27 @@ li{
     bottom: -60px;
     right: 10px;
 }
+@media screen and (max-width:767px){
+    .ballSvg-middle{
+        fill: #066AC9;
+        position: absolute;
+        bottom: -230px;
+        left: 7px;
+    }
+}
 .ballSvg-right{
     fill: #F7C32E;
     position: absolute;
     bottom: -70px;
     right: -70px;
+}
+@media screen and (max-width:767px){
+    .ballSvg-right{
+        fill: #F7C32E;
+        position: absolute;
+        bottom: -30px;
+        right: 0px;
+    }
 }
 
 .videoSection-video{
@@ -920,10 +942,11 @@ li{
 }
 @media screen and (max-width:767px){
     .videoSection-video{
-        width: 350px;
-        height: 300px;
-       
-        
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: 5px solid white;
     }
 }
 .fa-play{
@@ -935,6 +958,18 @@ li{
     outline: 10px solid transparent;
     border: 1px solid whitesmoke;
 
+}
+@media screen and (max-width:767px){
+    .fa-play{
+        color: #D6293E;
+        font-size: 23px;
+        padding: 18px;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        outline: 10px solid transparent;
+        border: 1px solid whitesmoke;
+    
+    }
 }
 /* footer css */
 footer{
