@@ -408,8 +408,9 @@ a{
     align-items: center;
     gap: 10px;
 }
-.fa-star.fa-regular{
-    background-color: #F7C32E;
+.fa-star.fas{
+    
+    color: #F7C32E;
     
 }
 /* Feature section css*/
